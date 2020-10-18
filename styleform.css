@@ -1,0 +1,45 @@
+body{
+  font-family: Courier New;
+  background-image:  url(fon3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form{
+  width: 300px;
+  margin: 0 auto;
+  position: absolute;
+  top:250px;
+  left: 600px;
+  height: 400px;
+}
+form > div {
+  position: relative;
+  height: 80px;
+}
+form > div > input[type="text"],
+form > div > input[type="password"],
+form > div > input[type="email"],
+form > div > input[type="button"]{
+  width: 90%;
+  border:0;
+  padding: 20px 5px 20px 15px;
+  background: #E0E0E0;
+  font-size: 25px;
+}
+form > input[type="button"],
+form > input[type="reset"]{
+  width: 30%;
+  background: #E0E0E0;
+  font-size: 25px;
+  padding: 20px 97px 20px 40px;
+}
+form > div > input[type="text"]:focus,
+form > div > input[type="password"]:focus,
+form > div > input[type="email"]:focus{
+  background: white;
+}

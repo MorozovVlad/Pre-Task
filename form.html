@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleform.css">
+    <script src="formscript.js"></script>
+  </head>
+  <body>
+      <form action="#0">
+        <div>
+          <input required type="text" id="Name" placeholder="Name">
+        </div>
+        <div>
+          <input required type="password" id="Password" placeholder="Password (A-Z a-z 0-9)">
+        </div>
+        <div>
+          <input required type="email" id="mail" placeholder="E-Mail">
+        </div>
+        <input type="button" value="Enter" onclick="validator()"> <input type="reset" value="Сlear" >
+        <div id ="error" style="color:white; font-size: 16px;">
+        </div>
+      </form>
+      <input type="image" img id="image" src="night.png" width="80" height="80" onClick="night();">
+      <input type="image" img id="image" src="light.png" width="80" height="80" onClick="light();">
+  </body>
+</html>
